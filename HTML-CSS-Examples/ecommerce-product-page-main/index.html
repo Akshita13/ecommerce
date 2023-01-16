@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:wght@400;700&display=swap"
+    rel="stylesheet">
+  <!-- <link rel="import" href="products.html"> -->
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- topar -->
+    <div class="topbar-wrapper">
+      <div class="d-flex align-items-center">
+        <h2 class="margin-right">sneakers</h2>
+        <ul class="menu-items">
+          <li class="nav-link">Collections</li>
+          <li class="nav-link">Men</li>
+          <li class="nav-link">Women</li>
+          <li class="nav-link">About</li>
+          <li class="nav-link">Contact</li>
+        </ul>
+      </div>
+      <div class="d-flex align-items-center ">
+        <img src="images/icon-cart.svg" class="cart" alt="My Happy SVG" />
+        <img src="images/image-avatar.png" class="avatar-props" alt="My Happy SVG" />
+      </div>
+    </div>
+    <!-- end topbar -->
+
+    <!-- main content -->
+    <div class="main-wrapper">
+      <div class="product-img-wrapper">
+        <figure>
+          <img class="product-img" src="images/image-product-1.jpg" alt="">
+        </figure>
+        <div class="thumbnail-wrapper">
+          <figure class="img-thubnail-wrapper">
+            <img class="product-thubnail" src="images/image-product-1-thumbnail.jpg" alt="">
+          </figure>
+          <figure class="img-thubnail-wrapper">
+            <img class="product-thubnail" src="images/image-product-2-thumbnail.jpg" alt="">
+          </figure>
+          <figure class="img-thubnail-wrapper">
+            <img class="product-thubnail" src="images/image-product-3-thumbnail.jpg" alt="">
+          </figure>
+          <figure>
+            <img class="product-thubnail" src="images/image-product-4-thumbnail.jpg" alt="">
+          </figure>
+        </div>
+      </div>
+      <div class="detail-wrapper">
+        <div class="company-name">sneaker company</div>
+        <div class="title">Fall Limited Edition Sneakers</div>
+        <div class="product-properties">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga excepturi
+          corporis ab quia, harum eius necessitatibus recusandae. Tenetur aliquid totam accusantium velit alias
+          voluptatibus provident, vel dicta, ad nulla dolores! </div>
+        <div class="price-display-wrapper">
+          <div class="price-discount">
+            <div class="price font-bold">$125.00</div>
+            <div class="discount-bedge small-font-size font-bold">50%</div>
+          </div>
+          <div class="scratch-amount small-font-size font-bold">$250.00</div>
+        </div>
+        <div class="d-flex">
+          <div class="item-count-bedge">
+            <img src="./images/icon-minus.svg" alt="">
+            <div class="small-font-size font-bold bedge-width">3</div>
+            <img src="./images/icon-plus.svg" alt="">
+          </div>
+          <button class="button-wrapper">
+            <img class="cart-icon" src="images/icon-cart.svg" alt="">
+            <div class="btn">Add to cart</div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- end main content -->
+
+  </div>
+
+  <!-- overlay -->
+  <!-- <div class="overlay">
+    <div class="img-wrapper">
+      <img class="close-img" src="./images/icon-close.svg" alt="">
+      <div class="selected-img">
+        <figure>
+          <img src="./images/image-product-1.jpg" alt="">
+        </figure>
+        <div class="previous">
+          <img class="previous-img" src="./images/icon-previous.svg" alt="">
+        </div>
+        <div class="next">
+          <img class="next-img" src="./images/icon-next.svg" alt="">
+        </div>
+
+      </div>
+      <div class="img-options d-flex justify-content-space-between">
+        <figure>
+          <img src="./images/image-product-1.jpg" alt="">
+        </figure>
+        <figure>
+          <img src="./images/image-product-2.jpg" alt="">
+        </figure>
+        <figure>
+          <img src="./images/image-product-3.jpg" alt="">
+        </figure>
+        <figure>
+          <img src="./images/image-product-4.jpg" alt="">
+        </figure>
+      </div>
+    </div>
+    <div class="background"></div>
+  </div> -->
+
+</body>
+
+</html>
