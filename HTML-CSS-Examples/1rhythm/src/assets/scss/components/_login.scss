@@ -1,0 +1,72 @@
+.background-img{
+    background-image: url(~@/assets/images/background.png);
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.login-form{
+    background-color: white;
+    position: absolute;
+    right: 200px;
+}
+
+.p-left{
+    padding-left: 12px;
+}
+
+.small-font-size{
+    font-size: $small-font-size;
+}
+
+.text-decoration{
+    text-decoration: none;
+}
+
+.btn{
+    font-size: $small-font-size;
+    border-radius: 0%;
+    
+}
+
+.btn-color{
+    background:linear-gradient(to right, #35B5C8 , #2D6DD5)
+}
+
+.logo{
+    height: 75px;
+    margin-left: 200px;
+}
+
+.drpdwn-arrow{
+    position: relative;
+}
+
+.drpdwn-arrow::after{
+    position:absolute;
+    content: '\e903';
+    font-family: 'font-icons';
+    font-size: 10px;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.icon-user{
+    font-size: 80px;
+}
+
+.icon-color{
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    color: #000;
+}
+
+.plus-icon-position{
+    position: absolute;
+    bottom: 0px;
+    right: 4px;
+    font-size: 20px;
+    cursor: pointer;
+}

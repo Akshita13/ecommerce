@@ -1,0 +1,154 @@
+.card {
+    border: 0px $card-border-color;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 20px;
+    max-width: 25%;
+    flex: 0 0 18%;
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: $font-weight;
+    padding: 8px 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.card-text {
+    font-size: 12px;
+    color: grey;
+}
+
+.card-heading {
+    font-weight: $font-weight
+}
+
+.card-img-top {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-prop {
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+//will use mixin when we have same properties but different values to be passed
+//here is only example how to use mixin
+@mixin bedge-color($color: DarkGray) {
+    background-color: $color;
+}
+
+.bedge {
+    display: flex;
+    font-size: $small-font-size;
+    font-weight: 600;
+    // color: $blue-600;
+    color: map-get($map: $theme-colors, $key: 'primary');
+    padding: 6px;
+    @include bedge-color($color: $blue-100);
+    border-radius: 4px;
+    // map.set($font-weights, "regular", 300)
+}
+
+.upload-image-container {
+    background-color: #e6ecf5;
+    border: 2px dashed #6ea8fe;
+    border-radius: 4px;
+    height: 250px;
+    margin-bottom: 12px;
+    justify-content: center;
+}
+
+.form-text-size {
+    font-size: 14px;
+}
+
+.dropdown-placeholder {
+    color: gray;
+}
+
+.dropdown-value {
+    color: #000;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.book-detail-wrapper {
+    width: 40%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ffff;
+}
+
+.bg-gray {
+    background-color: $gray-100;
+}
+
+.bg-white {
+    background-color: #ffff;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.border-collapse {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.status-bedge {
+    font-size: 12px;
+    padding: 8px 4px;
+    border-radius: 8px;
+    width: 80%;
+    text-align: center;
+    font-weight: 600;
+}
+.accepted-bedge-color{
+    background-color: #e4fef1;
+    color: #008000c9;
+}
+
+.rejected-bedge-color{
+    background-color: #fef2e4;
+    color: rgb(210 17 69 / 79%);;
+}
+
+td:first-child {
+    border-radius: 6px 0 0 6px;
+}
+
+td:last-child {
+    border-radius: 0 6px 6px 0;
+}
+
+.navbar-nav > .nav-item:hover , .nav-link:hover{
+    color: blue;
+    cursor: pointer;  
+}
+
+.activeLinkColor{
+    color: blue;
+}
+
+
+

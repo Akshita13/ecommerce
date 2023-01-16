@@ -1,0 +1,30 @@
+.logo-name {
+    font-size: 26px;
+    text-align: center;
+}
+
+.logo-height {
+    height: 36px;
+}
+
+.icon-padding {
+    padding: 8px;
+}
+
+// .dropdown-link-item:hover, .dropdown-link-item:focus{
+//     color: black;
+//     background-color: var(--bs-dropdown-link-hover-bg);
+// }
+.dropdown-link-item {
+    padding: 8px 12px;
+    display: flex;
+}
+
+.dropdown-link-item:hover {
+    color: $dropdown-link-hover-color;
+    background-color: $dropdown-link-hover-bg;
+}
+
+figure {
+    margin: 0;
+}
